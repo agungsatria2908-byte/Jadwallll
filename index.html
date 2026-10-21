@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#183f32">
+  <meta name="description" content="Jadwal kuliah interaktif DEP 1B Poliwangi.">
+  <title>DEP 1B — Ruang Pariwisata</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a href="#" class="brand">
+      <span class="brand-mark">D<span>1B</span></span>
+      <span class="brand-copy">
+        <strong>RUANG PARIWISATA</strong>
+        <small>DESTINASI PARIWISATA · POLIWANGI</small>
+      </span>
+    </a>
+    <span class="header-tag">CLASS OF 1B</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-pattern" aria-hidden="true"></div>
+      <div class="hero-content">
+        <span class="eyebrow">POLITEKNIK NEGERI BANYUWANGI</span>
+        <h1>Jelajahi Hari,<br><em>Raih Prestasi.</em></h1>
+        <p>
+          Satu ruang untuk mengatur perjalanan akademik
+          mahasiswa Destinasi Pariwisata kelas 1B.
+        </p>
+        <a href="#jadwal" class="hero-link">Lihat jadwal kuliah <span>↓</span></a>
+      </div>
+      <div class="hero-seal" aria-label="Destinasi Pariwisata">
+        <span>DEP</span>
+        <strong>01</strong>
+        <small>EXPLORE<br>LEARN<br>GROW</small>
+      </div>
+    </section>
+
+    <section class="schedule-section" id="jadwal">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">YOUR ACADEMIC JOURNEY</span>
+          <h2>Jadwal Kuliah</h2>
+          <p>Pilih hari, lalu pilih mata kuliah untuk melihat detail.</p>
+        </div>
+        <div class="week-label">
+          <span class="week-dot"></span>
+          SENIN — KAMIS
+        </div>
+      </div>
+
+      <nav class="day-tabs" aria-label="Pilih hari kuliah">
+        <button class="day-tab active" type="button" data-day="Senin" aria-pressed="true">Senin</button>
+        <button class="day-tab" type="button" data-day="Selasa" aria-pressed="false">Selasa</button>
+        <button class="day-tab" type="button" data-day="Rabu" aria-pressed="false">Rabu</button>
+        <button class="day-tab" type="button" data-day="Kamis" aria-pressed="false">Kamis</button>
+      </nav>
+
+      <div class="schedule-layout">
+        <section class="schedule-panel" aria-live="polite">
+          <div class="panel-heading">
+            <div>
+              <span class="eyebrow">DAILY SCHEDULE</span>
+              <h3 id="selectedDay">Senin</h3>
+            </div>
+            <span id="courseCount" class="course-count">2 mata kuliah</span>
+          </div>
+
+          <div id="classList" class="class-list">
+            <p class="loading-message">Memuat jadwal...</p>
+          </div>
+          <p class="panel-note">Pilih salah satu mata kuliah untuk membuka detailnya.</p>
+        </section>
+
+        <aside class="detail-panel" id="courseDetails" aria-live="polite">
+          <div class="detail-placeholder">
+            <div class="detail-icon">✳</div>
+            <span class="eyebrow">COURSE INFORMATION</span>
+            <h3>Detail Mata Kuliah</h3>
+            <p>Informasi jam, dosen, dan ruangan akan tampil di sini setelah kamu memilih mata kuliah.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="identity-section">
+      <div class="identity-pattern" aria-hidden="true"></div>
+      <div>
+        <span class="eyebrow">OUR IDENTITY</span>
+        <h2>Berakar pada budaya,<br><em>melangkah mendunia.</em></h2>
+      </div>
+      <p>
+        Destinasi Pariwisata 1B — belajar tentang tempat,
+        manusia, budaya, dan cerita yang menyatukannya.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="#" class="footer-brand">DEP <span>1B</span></a>
+    <p>Destinasi Pariwisata · Politeknik Negeri Banyuwangi</p>
+    <span class="footer-note">EXPLORE WITH PURPOSE.</span>
+  </footer>
+</body>
+</html>
